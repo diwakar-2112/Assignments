@@ -201,11 +201,6 @@
             background-color: white; /* Remove black background */
         }
 
-        .container {
-            
-            grid-template-rows: ;
-        }
-
         .subItem {
             grid-template-rows: repeat(10, 1fr);
             grid-template-columns: repeat(4, 1fr);
