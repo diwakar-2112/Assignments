@@ -219,6 +219,7 @@
         #item3 {
             grid-row: 1 / 7;
             grid-column: 2 / 4;
+            background-color : #FFBB91 ;
         }
 
         #item4 {
@@ -250,6 +251,7 @@
 
         #item9 {
             grid-row: 11 / 30;
+            background-color : #FFBB91 ;
             grid-column: 1 / 3;
         }
 
