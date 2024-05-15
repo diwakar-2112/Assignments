@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer-div{
+    width: 100vw;
+    height: 100vh;
+}
+.first-div{
+    width: 100%;
+    background-color:#E3DFC8;
+    height: 5%;
+    border: 1px solid black;
+}
+.second-div{
+    width: 100%;
+    height: 20%;
+    background-color:#00416D;
+    border: 1px solid black;
+}
+.third-div{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.fourth-div{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.fifth-div{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    border: 1px solid black;
+}
+.sixth-div{
+    width: 100%;
+    height: 5%;
+    background-color:#E3DFC8;
+    border: 1px solid black;
+}
+
+.third-one{
+    width: 17%;
+    height: 100%;
+    background-color:#DDDDDD;
+    border: 1px solid black;
+}
+.third-two{
+    width: 27%;
+    height: 100%;
+    background-color:#FFBB91;
+    border: 1px solid black;
+}
+.third-three{
+    width: 40%;
+    height: 100%;
+    background-color:#40A8C4;
+    border: 1px solid black;
+}
+.third-four{
+    width: 17%;
+    height: 100%;
+    background-color:#DDDDDD;
+    border: 1px solid black;
+}
+
+
+.fourth-one{
+    width: 17%;
+    height: 100%;
+    background-color:#DDDDDD;
+    border: 1px solid black;
+}
+.fourth-two{
+    width: 27%;
+    height: 100%;
+    background-color:#206A5D;
+    border: 1px solid black;
+}
+.fourth-three{
+    width: 40%;
+    height: 100%;
+    background-color:#F8BD7F;
+    border: 1px solid black;
+}
+.fourth-four{
+    width: 17%;
+    height: 100%;
+    background-color:#DDDDDD;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.fourth-three-up{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 1px solid black;
+
+}
+.fourth-three-up-one{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.fourth-three-up-two{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+
+}
+.fourth-three-up-three{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.fourth-three-down{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.fourth-three-down-one{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+.fourth-three-down-two{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+.fourth-three-down-three{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.fourth-one-four{
+    width: 17%;
+    height: 100%;
+    background-color:azure;
+    border: 1px solid black;
+}
+
+.fifth-div-one{
+    width: 10%;
+    height: 100%;
+    background-color:#DDDDDD;
+    border: 1px solid black;
+}
+.fifth-div-two{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.fifth-div-three{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.fifth-div-four{
+    width: 20%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+    border: 1px solid black;
+}
+.fifth-div-five{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.fifth-div-six{
+    width: 10%;
+    height: 100%;
+    background-color:#DDDDDD;
+    border: 1px solid black;
+}
+
+.fifth-div-two-one{
+    width: 100%;
+    height: 80%;
+    background-color:#5EAAA8;
+    border: 1px solid black;
+}
+.fifth-div-two-two{
+    width: 100%;
+    height: 20%;
+    background-color:#EE6F57;
+    border: 1px solid black;
+}
+
+.fifth-div-three-one{
+    width: 100%;
+    height: 80%;
+    background-color:#5EAAA8;
+    border: 1px solid black;
+}
+.fifth-div-three-two{
+    width: 100%;
+    height: 20%;
+    background-color:#EE6F57;
+    border: 1px solid black;
+}
+
+.fifth-div-four-one{
+    width: 100%;
+    height: 80%;
+    background-color:#5EAAA8;
+    border: 1px solid black;
+}
+.fifth-div-four-two{
+    width: 100%;
+    height: 20%;
+    background-color:#EE6F57;
+    border: 1px solid black;
+}
+
+.fifth-div-five-one{
+    width: 100%;
+    height: 80%;
+    background-color:#5EAAA8;
+    border: 1px solid black;
+}
+.fifth-div-five-two{
+    width: 100%;
+    height: 20%;
+    background-color:#EE6F57;
+    border: 1px solid black;
+}
+
+
+@media (max-width:414px) {
+    .third-div{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        border: 1px solid black;
+    }
+    .third-one{
+        width: 40%;
+        height: 100%;
+        background-color:#DDDDDD;
+        border: 1px solid black;
+    }
+    .third-two{
+        width: 60%;
+        height: 100%;
+        background-color:#40A8C4;
+        border: 1px solid black;
+    }
+    .third-three{
+       display: none;
+    }
+    .third-four{
+       display: none;
+    }
+
+    .fourth-div{
+        width: 100%;
+        height: 35%;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    }
+    .fourth-one{
+        width: 20%;
+        height: 50%;
+        background-color:#DDDDDD;
+        border: 1px solid black;
+    }
+    .fourth-two{
+        width: 60%;
+        height: 50%;
+        background-color:#206A5D;
+        border: 1px solid black;
+    }
+    .fourth-three{
+        width: 100%;
+        height: 50%;
+        order:3;
+        background-color:#F8BD7F;
+        border: 1px solid black;
+    }
+    .fourth-four{
+        width: 20%;
+        height: 50%;
+        background-color:#DDDDDD;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .fourth-three-up{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        border: 1px solid black;
+    
+    }
+    .fourth-three-up-one{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    
+    }
+    .fourth-three-up-two{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    
+    }
+    .fourth-three-up-three{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    
+    .fourth-three-down{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        border: 1px solid black;
+    
+    }
+    
+    .fourth-three-down-one{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    .fourth-three-down-two{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    .fourth-three-down-three{
+        width: 33.33%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    
+    .fourth-one-four{
+        width: 17%;
+        height: 100%;
+        background-color:azure;
+        border: 1px solid black;
+    }
+
+    
+    .fifth-div-one{
+       display: none;
+    }
+    .fifth-div-two{
+      display: none;
+    }
+    .fifth-div-three{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
+    .fifth-div-four{
+        width: 50%;
+        height: 100%;
+       display: flex;
+       flex-direction: column;
+        border: 1px solid black;
+    }
+    .fifth-div-five{
+        display: none;
+    }
+    .fifth-div-six{
+      display: none;
+    }
+    
+    .fifth-div-two-one{
+        width: 100%;
+        height: 80%;
+        background-color:#5EAAA8;
+        border: 1px solid black;
+    }
+    .fifth-div-two-two{
+        width: 100%;
+        height: 20%;
+        background-color:#EE6F57;
+        border: 1px solid black;
+    }
+    
+    .fifth-div-three-one{
+        width: 100%;
+        height: 80%;
+        background-color:#5EAAA8;
+        border: 1px solid black;
+    }
+    .fifth-div-three-two{
+        width: 100%;
+        height: 20%;
+        background-color:#EE6F57;
+        border: 1px solid black;
+    }
+    
+    .fifth-div-four-one{
+        width: 100%;
+        height: 80%;
+        background-color:#5EAAA8;
+        border: 1px solid black;
+    }
+    .fifth-div-four-two{
+        width: 100%;
+        height: 20%;
+        background-color:#EE6F57;
+        border: 1px solid black;
+    }
+    
+    .fifth-div-five-one{
+        width: 100%;
+        height: 80%;
+        background-color:#5EAAA8;
+        border: 1px solid black;
+    }
+    .fifth-div-five-two{
+        width: 100%;
+        height: 20%;
+        background-color:#EE6F57;
+        border: 1px solid black;
+}
+
+}
