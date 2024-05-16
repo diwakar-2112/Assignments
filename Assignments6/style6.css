@@ -16,6 +16,9 @@ body{
     grid-template-columns: repeat(10,1fr);
     gap: 0.3rem;
 }
+.container div{
+    padding: 10px;
+}
 .item1{
     grid-row: 1/2;
     grid-column: 1/11;

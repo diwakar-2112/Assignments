@@ -17,7 +17,9 @@ body{
     gap: 0.5rem;
     background-color: black;
 }
-
+.item{
+    padding: 3px;
+}
 .item1{
     background-color : #E3DFC8;
     grid-column-start: 1;
